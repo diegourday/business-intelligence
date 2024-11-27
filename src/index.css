@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #26292e;
+  text-wrap: pretty;
+}
+
+.nav-link {
+  @apply text-blue hover:text-red px-4 py-3 font-medium underline;
+}
+
+.btn-primary {
+  @apply border-blue text-blue flex items-center justify-center gap-1 rounded border-2 px-4 py-3 text-center font-bold hover:bg-[#F2F5F8];
+}
