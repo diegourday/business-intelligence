@@ -9,8 +9,9 @@ import Info from "@/components/Info";
 import Data from "@/components/Data";
 import Graphic from "@/components/Graphic";
 import Conclusions from "@/components/Conclusions";
-// import Team from "@/components/Team";
 import Footer from "@/components/Footer";
+import Recommendations from "@/components/Recommendations";
+import Team from "@/components/Team";
 
 export default function App() {
   return (
@@ -22,7 +23,8 @@ export default function App() {
       <Data />
       <Graphic />
       <Conclusions />
-      {/* <Team /> */}
+      <Recommendations />
+      <Team />
       <Footer />
     </>
   );

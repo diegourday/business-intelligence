@@ -1,29 +1,34 @@
 export default function Conclusions() {
   const CONCLUSIONS = [
     {
-      title: "Optimización de Rutas de Distribución",
+      title: "Influencia Significativa de los Factores Meteorológicos",
       description:
-        "El análisis de datos históricos permitió identificar oportunidades para optimizar las rutas de distribución de GLP. Esto contribuye a reducir costos operativos, mejorar la eficiencia logística y garantizar entregas más rápidas en las regiones atendidas.",
+        "Los factores meteorológicos, especialmente la temperatura, humedad, viento y presión atmosférica, juegan un papel crucial en la dispersión y concentración de contaminantes en Ica, afectando directamente la calidad del aire.",
     },
     {
-      title: "Gestión Eficiente de Inventarios",
+      title: "Patrones de Contaminación Variables",
       description:
-        "Gracias a la centralización de datos en el Data Warehouse, se logró una mejor proyección y control de los niveles de inventario. Esto asegura que las reposiciones sean oportunas, evitando desabastecimientos y sobrecarga de almacenes.",
+        "Los niveles de contaminantes como PM2.5, PM10, NO2, SO2 y CO en Ica muestran una fuerte correlación con los cambios estacionales y climáticos, lo que indica que los contaminantes no solo son el resultado de fuentes locales, sino también de factores atmosféricos.",
     },
     {
-      title: "Segmentación de Clientes",
+      title: "Impacto en la Salud Pública",
       description:
-        "El reporte destaca que los clientes comerciales representan el segmento más significativo, seguido de los residenciales e industriales. Esta información permite personalizar estrategias para satisfacer mejor las necesidades de cada tipo de cliente y maximizar la rentabilidad.",
+        "La alta concentración de contaminantes en zonas urbanas e industriales, exacerbada por las condiciones meteorológicas, representa un riesgo considerable para la salud pública, especialmente para poblaciones vulnerables como niños, ancianos y personas con enfermedades respiratorias.",
     },
     {
-      title: "Control de Costos por Región",
+      title: "Eficacia de Big Data y Modelos Predictivos",
       description:
-        "El análisis muestra que Ica presenta los costos más altos en distribución, lo que abre la posibilidad de implementar estrategias de optimización específicas para esta región y mejorar la rentabilidad general.",
+        "El análisis de grandes volúmenes de datos mediante herramientas de Big Data y modelos predictivos con Python ha permitido identificar patrones de contaminación y predecir episodios de alta contaminación, mejorando la capacidad de respuesta ante emergencias ambientales.",
     },
     {
-      title: "Impacto de la Tecnología en la Toma de Decisiones",
+      title: "Limitación de Datos y Monitoreo Local",
       description:
-        "La implementación del Data Warehouse y su integración con herramientas de Business Intelligence, como Power BI, ha facilitado la visualización de indicadores clave en tiempo real. Esto permite tomar decisiones estratégicas informadas para mejorar la operación y la experiencia del cliente.",
+        "La falta de datos completos y actualizados sobre las condiciones meteorológicas y de calidad del aire en áreas periféricas de Ica limita la capacidad para realizar un análisis exhaustivo y precisa la predicción de la calidad del aire.",
+    },
+    {
+      title: "Desafíos del Cambio Climático",
+      description:
+        "El cambio climático podría alterar los patrones meteorológicos en la región, lo que a su vez afectaría la dispersión y concentración de contaminantes, haciendo aún más urgente la necesidad de monitoreo continuo y modelos predictivos robustos.",
     },
   ];
 
@@ -31,20 +36,20 @@ export default function Conclusions() {
     <div className="bg-[#F3F8FB]">
       <section
         id="conclusiones"
-        className="mx-auto max-w-[720px] px-6 pb-28 pt-20"
+        className="mx-auto max-w-[720px] px-6 pb-24 pt-20"
       >
         <h2 className="text-xl font-bold">Conclusiones del Estudio</h2>
         <p className="mt-2">
-          Descubre los hallazgos, logros y propuestas para mejorar la
-          distribución del GLP.
+          Explora los hallazgos, logros y propuestas para mejorar la calidad del
+          aire en Ica.
         </p>
-        <div className="mt-8 flex flex-col gap-6">
+        <div className="mt-8 flex flex-col gap-8">
           {CONCLUSIONS.map((conclusion, index) => (
             <article
               key={index}
-              className="hover:outline-blue rounded bg-white p-8 shadow-md outline-none"
+              className="rounded-lg bg-white p-8 shadow-lg shadow-black/5 outline-none hover:outline-blue"
             >
-              <h3 className="text-blue mb-2 text-xl font-bold underline">
+              <h3 className="mb-2 text-xl font-bold text-blue underline">
                 {conclusion.title}
               </h3>
               <p>{conclusion.description}</p>

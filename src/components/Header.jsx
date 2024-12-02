@@ -33,7 +33,7 @@ export default function Header() {
         </a>
         <ul className="flex">
           <a href="#informacion" className="nav-link">
-            Monitoreo de la Distribución
+            Calidad del aire
           </a>
           <a href="#reportes" className="nav-link">
             Visualización de Datos
@@ -41,8 +41,8 @@ export default function Header() {
           <a href="#conclusiones" className="nav-link">
             Conclusiones
           </a>
-          <a href="#equipo" className="nav-link">
-            Equipo
+          <a href="#recomendaciones" className="nav-link">
+            Recomendaciones
           </a>
         </ul>
       </nav>

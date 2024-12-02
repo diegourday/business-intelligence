@@ -13,9 +13,13 @@ body {
 }
 
 .nav-link {
-  @apply text-blue hover:text-red px-4 py-3 font-medium underline;
+  @apply px-4 py-3 font-medium text-blue underline hover:text-red;
 }
 
 .btn-primary {
-  @apply border-blue text-blue flex items-center justify-center gap-1 rounded border-2 px-4 py-3 text-center font-bold hover:bg-[#F2F5F8];
+  @apply flex items-center justify-center gap-1 rounded border-2 border-blue px-4 py-3 text-center font-bold text-blue hover:bg-[#F2F5F8];
+}
+
+.shadow-card-home {
+  box-shadow: 5px 1px 30px 0 rgba(133, 169, 211, 0.3);
 }

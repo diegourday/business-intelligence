@@ -2,7 +2,7 @@ export default function Links() {
   return (
     <section className="mx-auto max-w-[1120px]">
       <div className="mt-14 flex items-center justify-center gap-6">
-        <a href="https://www.gob.pe/minem/" className="btn-primary">
+        <a href="https://www.gob.pe/senamhi" className="btn-primary">
           <span>Visitar página oficial</span>
           <svg
             version="1.1"
@@ -13,7 +13,7 @@ export default function Links() {
             viewBox="0 0 10.1 16.3"
             width="10.1"
             height="16.3"
-            className="mx-auto ml-2 h-4 w-4 text-blue-700"
+            className="text-blue-700 mx-auto ml-2 h-4 w-4"
           >
             <path
               fill="currentColor"
@@ -21,11 +21,8 @@ export default function Links() {
             ></path>
           </svg>
         </a>
-        <a
-          href="https://www.gob.pe/institucion/minem/institucional"
-          className="btn-primary"
-        >
-          <span>Conocer más sobre la entidad</span>
+        <a href="https://www.gob.pe/minam" className="btn-primary">
+          <span>Ministerio del Ambiente</span>
           <svg
             version="1.1"
             id="Capa_1"
@@ -35,7 +32,7 @@ export default function Links() {
             viewBox="0 0 10.1 16.3"
             width="10.1"
             height="16.3"
-            className="mx-auto ml-2 h-4 w-4 text-blue-700"
+            className="text-blue-700 mx-auto ml-2 h-4 w-4"
           >
             <path
               fill="currentColor"
@@ -44,7 +41,7 @@ export default function Links() {
           </svg>
         </a>
         <a
-          href="https://www.transparencia.gob.pe/enlaces/pte_transparencia_enlaces.aspx?id_entidad=137"
+          href="https://www.transparencia.gob.pe/enlaces/pte_transparencia_enlaces.aspx?id_entidad=127&id_tema=1&ver=D#.X-ulNulKhmC"
           className="btn-primary"
         >
           <span>Portal de transparencia</span>
@@ -57,7 +54,7 @@ export default function Links() {
             viewBox="0 0 10.1 16.3"
             width="10.1"
             height="16.3"
-            className="mx-auto ml-2 h-4 w-4 text-blue-700"
+            className="text-blue-700 mx-auto ml-2 h-4 w-4"
           >
             <path
               fill="currentColor"
